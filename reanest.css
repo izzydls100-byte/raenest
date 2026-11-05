@@ -1292,6 +1292,11 @@ width: 15vw;
 .codiv{
     display: flex;
     justify-content: space-evenly;
+    position: relative;
+    gap: 560px;
+}
+.pow{
+    position: absolute;
 }
 .unod{
     display: flex;
@@ -1341,15 +1346,72 @@ width: 15vw;
       margin-left: -35px; 
       z-index: 3;
       right: 110px;
+      top: 30px;
       transition-duration: .6s;
     }
     @media (max-width: 480px) {
-        .card-stack{
-
-        }
+      .pow{
+        margin-top: 10vh;
+      }
         .oma{
-            
+            width: 23vw;
         }
+        .card{
+            width: 40vw;
+            height: 45vw;
+             border-radius: 10px;
+        }
+        .card-stack:hover{
+        .card-1{
+           left: 110px;
+        }
+        .card-3{
+            right: 110px;
+        }
+    }
+    .unod{
+margin-top: 40vh;
+    }
+    .codiv{
+        gap: 0px;
+        justify-content: center;
+
+    }
+    .dodi{
+        margin-top: 40vh;
+    }
+    }
+    @media (min-width: 481px) and (max-width: 1024px) {
+         .pow{
+        margin-top: 10vh;
+      }
+        .oma{
+            width: 23vw;
+        }
+        .card{
+            width: 23vw;
+            height: 28vw;
+             border-radius: 10px;
+        }
+        .card-stack:hover{
+        .card-1{
+           left: 10px;
+        }
+        .card-3{
+            right: 10px;
+        }
+    }
+    .unod{
+margin-top: 40vh;
+    }
+    .codiv{
+        gap: 0px;
+        justify-content: center;
+
+    }
+    .dodi{
+        margin-top: 40vh;
+    }
     }
 
 
