@@ -15,7 +15,7 @@
     top: 0;
     z-index: 10;
     background-color: white;
-    padding-left: 19px;
+    padding-left: 29px;
  }
  
 /* .md{
@@ -139,6 +139,7 @@ display: none;
     border-top: 1px solid #dfdddd;
     top: 55px;
     z-index: 2;
+    transition-duration: 0.2s;
 }
 .dropped2{
      display: none;
@@ -150,6 +151,7 @@ display: none;
     border: none;
     top: 55px;
 z-index: 2;
+transition-duration: 0.2s;
 }
 .anchor{
     text-decoration: none;
@@ -1048,7 +1050,7 @@ width: 40vw;
     }
 
    
-    .cards-carousel {
+    .cardi {
       display: flex;
       gap: 20px;
       overflow-x: auto;
@@ -1059,7 +1061,7 @@ width: 40vw;
     }
 
   
-    .card-item {
+    .card-i {
       flex: 0 0 70vw; 
     width: 602px;
       height: 480px;
@@ -1071,11 +1073,11 @@ width: 40vw;
       background-position: center;
       cursor: grab;
     }
-    .card-item:active{
+    .card-i:active{
         cursor: grabbing;
     }
 
-    .card-overlay {
+    .card-ov{
       position: absolute;
       inset: 0;
     
@@ -1086,13 +1088,13 @@ width: 40vw;
       color: #ffffff;
     }
 
-    .card-title {
+    .card-t {
       font-size: 2rem;
       font-weight: 700;
       
     }
 
-    .card-description {
+    .card-d {
       font-size: 1.15rem;
       font-weight: 500;
       max-width: 480px;
@@ -1106,14 +1108,14 @@ width: 40vw;
         font-size: 0.7rem;
         padding: 8px 2px;
       }
-      .card-item {
+      .card-i {
         flex: 0 0 80vw;
         height: 400px;
       }
-      .card-title {
+      .card-t {
         font-size: 1.5rem;
       }
-      .card-description {
+      .card-de {
         font-size: 0.95rem;
       }
       .f-div{
