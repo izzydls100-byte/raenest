@@ -1102,7 +1102,7 @@ width: 40vw;
       margin: 0;
     }
 
-    /* Mobile Responsive Layout */
+
     @media (max-width: 576px) {
       .pill-link {
         font-size: 0.7rem;
@@ -1122,7 +1122,7 @@ width: 40vw;
         display: block;
       }
       .hf{
-        font-size: 5dvw;
+        font-size: 4dvw;
       }
     }
     .csec{
@@ -1505,6 +1505,8 @@ margin-top: 40vh;
       gap: 24px;
       /* width: 1040px; */
       justify-self: center;
+      padding-left: 50px;
+      padding-right: 50px;
     }
 
    
@@ -1569,13 +1571,13 @@ margin-top: 40vh;
       justify-content: flex-start;
     }
 
-    .card-footer h3 {
+    .card-for h3 {
       font-size: 20px;
       font-weight: 700;
       margin-bottom: 8px;
     }
 
-    .card-footer p {
+    .card-for p {
       font-size: 20px;
       line-height: 1.45;
       font-weight: 400;
