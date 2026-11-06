@@ -1115,7 +1115,7 @@ width: 40vw;
       .card-t {
         font-size: 1.5rem;
       }
-      .card-de {
+      .card-d {
         font-size: 0.95rem;
       }
       .f-div{
@@ -1306,12 +1306,12 @@ width: 15vw;
 .dodi{
     display: flex;
 }
-.card-stack {
+.card-sta {
       display: flex;
       align-items: center;
       position: relative;
     }
-    .card-stack:hover{
+    .card-sta:hover{
         .card-1{
            left: 10px;
         }
@@ -1363,7 +1363,7 @@ width: 15vw;
             height: 45vw;
              border-radius: 10px;
         }
-        .card-stack:hover{
+        .card-sta:hover{
         .card-1{
            left: 110px;
         }
@@ -1395,7 +1395,7 @@ margin-top: 40vh;
             height: 28vw;
              border-radius: 10px;
         }
-        .card-stack:hover{
+        .card-sta:hover{
         .card-1{
            left: 10px;
         }
