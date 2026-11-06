@@ -1520,7 +1520,7 @@ margin-top: 40vh;
     }
 
     
-    .badge {
+    .badder {
       position: absolute;
       top: 0;
       right: 0;
@@ -1559,7 +1559,7 @@ margin-top: 40vh;
    
    
     
-    .card-footer {
+    .card-for {
       background-color: #251280;
       padding: 24px;
       color: #ffffff;
@@ -1605,15 +1605,15 @@ margin-top: 40vh;
             width: 28vw;
             height: fit-content;
         }
-        .card-footer h3 {
+        .card-for h3 {
       font-size: 3vw;
       
     }
-     .card-footer p {
+     .card-for p {
       font-size: 2vw;
      
     }
-    .card-footer {
+    .card-for {
       background-color: #251280;
       padding: 24px;
       color: #ffffff;
