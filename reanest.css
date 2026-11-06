@@ -1489,8 +1489,97 @@ margin-top: 40vh;
         font-size: 2vw;
     }
 }
+.o4{
+    color: #100325;
+    font-size: 47px;
+    padding-top: 30px;
+    font-weight: 600;
+    padding-left: 60px;
+   
+}
 
+.cards-container {
+      display: flex;
+      gap: 24px;
+      /* width: 1040px; */
+      justify-self: center;
+    }
 
+    /* Individual Card */
+    .feature-card {
+      position: relative;
+      width: 450px;
+      height: 628px;
+      border-radius: 24px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+     justify-content: center;
+    }
+
+    /* Top-Right Badge */
+    .badge {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 48px;
+      height: 48px;
+      background-color: #251280;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 16px;
+      border-bottom-left-radius: 24px;
+      z-index: 2;
+    }
+
+    /* Lighter Top Section */
+    .card-body {
+      background-color: #5b45e0;
+      padding: 40px 24px 24px 24px;
+      height: 280px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .godi{
+        padding-top: 50px;
+    }
+
+   
+   
+    
+    .card-footer {
+      background-color: #251280;
+      padding: 24px;
+      color: #ffffff;
+      height: 190px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .card-footer h3 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .card-footer p {
+      font-size: 13px;
+      line-height: 1.45;
+      color: rgba(255, 255, 255, 0.85);
+    }
+    @media (max-width: 480px){
+        .cards-container{
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        
+    }
+    
 
 
 
