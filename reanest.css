@@ -1495,7 +1495,7 @@ margin-top: 40vh;
     padding-top: 30px;
     font-weight: 600;
     padding-left: 60px;
-   
+   margin-bottom: 30px;
 }
 
 .cards-container {
@@ -1505,7 +1505,7 @@ margin-top: 40vh;
       justify-self: center;
     }
 
-    /* Individual Card */
+   
     .feature-card {
       position: relative;
       width: 450px;
@@ -1517,7 +1517,7 @@ margin-top: 40vh;
      justify-content: center;
     }
 
-    /* Top-Right Badge */
+    
     .badge {
       position: absolute;
       top: 0;
@@ -1535,7 +1535,7 @@ margin-top: 40vh;
       z-index: 2;
     }
 
-    /* Lighter Top Section */
+   
     .card-body {
       background-color: #5b45e0;
       padding: 40px 24px 24px 24px;
@@ -1544,7 +1544,13 @@ margin-top: 40vh;
       align-items: center;
       justify-content: center;
     }
-    .godi{
+    .godi1{
+        padding-top: 50px;
+    }
+    .godi2{
+        padding-top: 50px;
+    }
+    .godi3{
         padding-top: 50px;
     }
 
@@ -1562,23 +1568,72 @@ margin-top: 40vh;
     }
 
     .card-footer h3 {
-      font-size: 18px;
+      font-size: 20px;
       font-weight: 700;
       margin-bottom: 8px;
     }
 
     .card-footer p {
-      font-size: 13px;
+      font-size: 20px;
       line-height: 1.45;
-      color: rgba(255, 255, 255, 0.85);
+      font-weight: 400;
+     color: white;
     }
     @media (max-width: 480px){
         .cards-container{
             flex-wrap: wrap;
             flex-direction: column;
         }
-        
+        .feature-card{
+            width: 90vw;
+        }
+        .o4{
+            font-size: 5vw;
+            margin-top: 60px;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
     }
+    @media (min-width: 481px) and (max-width: 1024px){
+        /* .cards-container{
+            width: 300vw;
+        } */
+        .feature-card{
+            width: 28vw;
+            height: fit-content;
+        }
+        .card-footer h3 {
+      font-size: 3vw;
+      
+    }
+     .card-footer p {
+      font-size: 2vw;
+     
+    }
+    .card-footer {
+      background-color: #251280;
+      padding: 24px;
+      color: #ffffff;
+      height: 20vh;
+   
+    }
+    .card-body{
+        height: 20vh;
+        padding-top: 10px;
+    }
+       .godi1{
+        width: 20vw;
+    }
+    .godi2{
+         width: 20vw;
+    }
+    .godi3{
+        width: 25vw;
+    }
+
+    }
+
     
 
 
