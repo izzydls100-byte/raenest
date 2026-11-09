@@ -68,35 +68,52 @@
     position: relative;
     cursor: pointer;
     gap: 3px;
+    color: #000000;
 }
 .dropdown-phone{
     background-color: white;
     width: fit-content;
-    height: 60px;
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
     font-weight: 600;
     font-size: 14px;
-    /* position: relative; */
+     position: relative; 
     cursor: pointer;
     gap: 3px;
     color: black;
     text-decoration: none;
+    margin-bottom: 30px;
+}
+.dropdown-phone1{
+    background-color: white;
+    justify-self: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+     position: relative; 
+    cursor: pointer;
+    gap: 3px;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 30px;
+    margin-top: 190px;
+    margin-left: 40vw;
 }
 .dropped-phone{
-     display: none;
-    position: absolute;
+     
     background-color: white;
-    height:550px;
     width: 360px;
     border-radius: 20px;
     border-top: 1px solid #e0dbdb;
-    top: 70px;
-    left: 0;
-    
    
+    position: static;
+      max-height: 0;
+      overflow: hidden;
+      opacity: 0;
+   transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, padding 0.3s ease-in-out;
 }
 .dropped-phone1{
     display: none;
@@ -108,11 +125,58 @@
     border-top: 1px solid #dfdddd;
     top: 70px;
 }
+.dropped-phone2{
+    
+     display: none;
+    position: absolute;
+    background-color: rgb(196, 196, 196);
+    width: 220px;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    top: 55px;
+z-index: 2;
+transition-duration: 0.2s;
+
+}
 .dropdown-phone:hover.dropped-phone1{
     display: block;
 }
 .dropdown-phone:hover .dropped-phone{
-display: block;
+max-height: 550px;
+opacity: 1;
+}
+.dropdown-phone1:hover .dropped-phone2{
+    display: block;
+}
+
+.log-divp{
+width: 90vw;
+border: 1px solid #4f3fd7;
+color: #4f3fd7;
+height: 4vh;
+display: flex;
+justify-content: center;
+justify-self: center;
+border-radius: 5px;
+align-items: center;
+font-size: 1rem;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.Signd{
+width: 90vw;
+border: 1px solid #4f3fd7;
+color: white;
+background-color: #4F3FD7;
+height: 4vh;
+display: flex;
+justify-content: center;
+justify-self: center;
+border-radius: 5px;
+align-items: center;
+font-size: 1rem;
+font-weight: 700;
 }
 
 .dropped{
@@ -130,7 +194,7 @@ display: block;
 }
 
 .dropped1{
-display: none;
+
     position: absolute;
     background-color: white;
     height:220px;
@@ -140,6 +204,7 @@ display: none;
     top: 55px;
     z-index: 2;
     transition-duration: 0.2s;
+    display: none;
 }
 .dropped2{
      display: none;
@@ -193,8 +258,8 @@ font-size: 14px;
 }
 .dropdown:hover .dropped1{
     display: block;
-     display: flex;
-    justify-content: center;
+      display: flex;
+    justify-content: center; 
 }
 .dropdown:hover .dropped{
     display: block;
@@ -233,7 +298,12 @@ margin-top: 23px;
     .sdiv{
         display: none;
     }
-    
+      .uim{
+        margin-left: 80vw;
+      }
+.uim1{
+   margin-left: 300px;
+}
   
     .firstima{
         width: 12vh;
@@ -274,14 +344,24 @@ margin-top: 23px;
   .menus-item{
     color: black;
   }
- 
+ .toyo{
+    margin-top: 28vh;
+ }
  
 }
  @media (min-width: 481px) and (max-width: 1024px)  {
     .sdiv{
         display: none;
     }
-    
+    .dropdown-phone{
+        margin-left: 3vw;
+    }
+    .uim{
+        margin-left: 85vw;
+    }
+    .uim1{
+        margin-left: 81vw;
+    }
   
     .firstima{
         width: 12vh;
@@ -323,6 +403,9 @@ margin-top: 23px;
   
   .menus-item{
     color: black;
+  }
+  .toyo{
+    margin-top: 45vh;
   }
   }
 
@@ -1637,7 +1720,8 @@ margin-top: 40vh;
     }
 
     }
-
+ 
+ 
     
 
 
