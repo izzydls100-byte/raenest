@@ -347,6 +347,20 @@ margin-top: 23px;
  .toyo{
     margin-top: 28vh;
  }
+ .dropped-phone2{
+    
+     display: none;
+    position: absolute;
+    background-color: rgb(196, 196, 196);
+    width: 220px;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    top: 55px;
+z-index: 2;
+transition-duration: 0.2s;
+right: 50px;
+}
  
 }
  @media (min-width: 481px) and (max-width: 1024px)  {
@@ -1184,9 +1198,10 @@ width: 40vw;
       line-height: 1.4;
       margin: 0;
     }
+    
 
 
-    @media (max-width: 576px) {
+    @media (max-width: 480px) {
       .pill-link {
         font-size: 0.7rem;
         padding: 8px 2px;
@@ -1208,6 +1223,30 @@ width: 40vw;
         font-size: 4dvw;
       }
     }
+    @media (min-width: 481px) and (max-width: 1024px){
+        .pill-link {
+        font-size: 1rem;
+        padding: 8px 2px;
+      }
+      .card-i {
+        flex: 0 0 80vw;
+        height: 400px;
+      }
+      .card-t {
+        font-size: 1.5rem;
+      }
+      .card-d {
+        font-size: 0.95rem;
+      }
+      .f-div{
+        display: block;
+      }
+      .hf{
+        font-size: 4dvw;
+        padding-left: 45px;
+      }
+    }
+
     .csec{
         display: flex;
         justify-content: center;
@@ -1372,7 +1411,7 @@ width: 15vw;
 }
 .grsec{
     background-color: #f7f7ff;
-    height: 100vh;
+    height: 130vh;
 }
 .codiv{
     display: flex;
@@ -1720,7 +1759,317 @@ margin-top: 40vh;
     }
 
     }
- 
+  
+Middle-text {
+        justify-self: center;
+        font-size: 35px;
+        font-weight: bolder;
+        margin-top: 100px;
+        color: #24201E;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .Newsdiv {
+        display: flex;
+        gap: 20px;
+        justify-self: center;
+        margin-top: 40px;
+    }
+
+    .Newsdiv div {
+        width: 450px;
+        height: 370px;
+        background-color: white;
+        border: 1px solid #E9E9E9;
+        border-radius: 20px;
+    }
+    .Clients div {
+        margin-top: 10px;
+        margin-bottom: 100px;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 20px;
+        height: 280px;
+        background-image: url("https://cdn.prod.website-files.com/67d8614570bbea9ea5932686/6aeb5631c6ea77515058d1ca_how%20to%20receive%20stablecoin.png");
+        background-position: center;
+        background-size: contain;
+        width: 430px;
+    }
+    .Stablecoin {
+        margin-top: -90px;
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 10px;
+        color: #24201E;
+        width: 400px;
+        font-family:  "Open Sans", sans-serif;
+    }
+    .Stable {
+        margin-top: -90px;
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 10px;
+        color: #24201E;
+        width: 350px;
+        font-family:  "Open Sans", sans-serif;
+    }
+    .Arrow {
+        margin-left: 400px;
+        margin-top: -100px;
+        margin-bottom: 50px;
+    }
+    .Arrow2 {
+        margin-left: 400px;
+        margin-top: -100px;
+        margin-bottom: 40px;
+    }
+
+    .USD div {
+        margin-top: 10px;
+        margin-bottom: 100px;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 20px;
+        height: 280px;
+        background-image: url("https://cdn.prod.website-files.com/67d8614570bbea9ea5932686/6aeb4e02970096c683067dca_How%20to%20save%20in%20USD.png");
+        background-position: center;
+        background-size: cover;
+        width: 430px;
+    }
+    .Vault div {
+        margin-top: 10px;
+        margin-bottom: 100px;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 20px;
+        height: 280px;
+        background-image: url("https://cdn.prod.website-files.com/67d8614570bbea9ea5932686/6aeb41f84e2b49672719824b_usd%20vs%20stablecoin.png");
+        background-position: center;
+        background-size: cover;
+        width: 430px;
+    }
+
+    .Newsdiv div:hover .Arrow {
+        transform: translateX(20px);
+        transition-duration: 0.5s;
+    }
+     .Newsdiv div:hover .Arrow2 {
+        transform: translateX(20px);
+        transition-duration: 0.5s;
+    }
+
+    @media (max-width: 480px) {
+        .Newsdiv {
+            flex-wrap: wrap;
+        }
+        .Newsdiv div {
+            width: 90vw;
+            margin-left: 15px;
+        }
+        .Clients div {
+            width: 85vw;
+            height: 250px;
+            justify-self: center;
+            margin-right: -15px;
+            margin-left: -3vw;
+        }
+        .USD div {
+             width: 85vw;
+            height: 250px;
+            justify-self: center;
+            margin-right: -15px;
+            margin-left: -3vw;
+        }
+        .Vault div {
+             width: 85vw;
+            height: 250px;
+            justify-self: center;
+            margin-right: -15px;
+            margin-left: -3vw;
+        }
+        .Middle-text {
+            margin-top: 8vh;
+            font-size: 20px;
+            margin-left: 20px;
+            text-align: center;
+        }
+        .Plan {
+            height: 4100px;
+        }
+        .Stablecoin {
+            font-size: 14px;
+        }
+        .Arrow {
+            margin-left: -400vw;
+        }
+        .Arrow2 {
+            margin-left: -400vw;
+        }
+    }
+    @media (min-width: 481px) and (max-width: 1024px) {
+        .Newsdiv div {
+            width: 30vw;
+        }
+        .Clients div {
+            width: 27vw;
+            height: 230px;
+            background-size: cover;
+        }
+        .Clients p {
+            width: 20vw;
+        }
+        .USD div {
+            width: 27vw;
+            height: 230px;
+            background-size: cover;
+        }
+        .Vault div {
+            width: 27vw;
+            height: 230px;
+            background-size: cover;
+        }
+        .Stablecoin {
+            font-size: 12px;
+            width: 40vw;
+        }
+        .Stable {
+             font-size: 12px;
+            width: 40vw;
+        }
+        .Arrow {
+            margin-left: 185px;
+            /* margin-top: -10px; */
+        }
+        .Arrow2 {
+            margin-left: 185px;
+        }
+        .USD p {
+            width: 15vw;
+        }
+        .Vault p {
+            width: 15vw;
+        }
+        .Middle-text {
+            margin-top: 8vh;
+            font-size: 20px;
+            margin-left: 20px;
+            text-align: center;
+        }
+        
+    }
+
+    .Hr {
+        width: 1390px;
+        justify-self: center;
+        height: 1px;
+        background-color: #C0C0C0;
+        margin-top: 30px;
+    }
+    input {
+        width: 500px;
+        border-radius: 10px;
+        height: 40px;
+        margin-top: 20px;
+        border: 1px solid #C0C0C0;
+    }
+    .global {
+        display: flex;
+        gap: 100px;
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+    .World {
+        font-size: 20px;
+        color: #24201E;
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+    }
+    .Join {
+        width: 150px;
+        height: 40px;
+        background-color: #4F3FD7;
+        color: white;
+        font-weight: bold;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .email {
+        display: flex;
+        gap: 20px;
+        margin-left: 170px;
+        margin-top: -10px;
+    }
+    @media (max-width: 480px) {
+        .global {
+            display: block;
+        }
+        .Hr {
+            width: 90vw;
+        }
+        .World {
+            font-size: 16px;
+            margin-left: -30px;
+        }
+        .email {
+            margin-left: -30px;
+            margin-top: 20px;
+        }
+        .Join {
+            font-size: 15px;
+            width: 280px;
+            margin-right: 20px;
+        }
+    }
+    @media (min-width: 481px) and (max-width: 1024px) {
+        .global {
+            display: block;
+        }
+        .email {
+            margin-left: -20px;
+        }
+    }
+
+    .Bunz {
+        font-size: 30px;
+        color: #24201E;
+        justify-self: center;
+        font-weight: bold;
+        margin-top: 160px;
+        font-family: "Open Sans", sans-serif;
+    }
+    .Techpoint {
+        justify-self: center;
+        display: flex;
+        gap: 75px;
+    }
+    .Techpoint img {
+        width: 150px;
+    }
+    @media (max-width: 480px) {
+        .Bunz {
+            font-size: 20px;
+        }
+        .Techpoint {
+            flex-wrap: wrap;
+            gap: 55px;
+            margin-left: 25px;
+            justify-content: center;
+        }
+        .Techpoint img {
+            width: 80px;
+        }
+    }
+    @media (min-width: 481px) and (max-width: 1024px) {
+        .Techpoint img {
+            width: 80px;
+        }
+    }
+
+    
  
     
 
