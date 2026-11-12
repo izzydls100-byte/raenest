@@ -273,6 +273,7 @@ font-size: 14px;
     display: none;
     height: fit-content;
 }
+
 .ofdiv{
 display: flex;
 flex-direction: column;
@@ -1722,6 +1723,7 @@ margin-top: 40vh;
 
         .grsec{
             margin-top: -60px;
+            height: fit-content;
         }
     }
     @media (min-width: 481px) and (max-width: 1024px){
@@ -1871,7 +1873,7 @@ margin-top: 40vh;
     @media (max-width: 480px) {
         .Newsdiv {
             flex-wrap: wrap;
-            padding-top: 130vh;
+            
         }
         .whsec{
             height: fit-content;
@@ -1893,6 +1895,10 @@ margin-top: 40vh;
             justify-self: center;
             margin-right: -15px;
             margin-left: -3vw;
+            background-size: 100vw;
+            background-color: #e6ff00;
+            background-repeat: no-repeat;
+            background-position: 50% 100%;
         }
         .Vault div {
              width: 85vw;
@@ -1900,12 +1906,19 @@ margin-top: 40vh;
             justify-self: center;
             margin-right: -15px;
             margin-left: -3vw;
+             background-size: 100vw;
+            background-color: #330a7a;
+            background-repeat: no-repeat;
+            background-position: 50% 100%;
+        }
         }
         .Middle-text {
             margin-top: 8vh;
             font-size: 20px;
             margin-left: 20px;
             text-align: center;
+            display: flex;
+            justify-self: center;
         }
         .Plan {
             height: 4100px;
@@ -1919,7 +1932,7 @@ margin-top: 40vh;
         .Arrow2 {
             margin-left: -400vw;
         }
-    }
+    
     @media (min-width: 481px) and (max-width: 1024px) {
         .Newsdiv div {
             width: 30vw;
@@ -1927,7 +1940,10 @@ margin-top: 40vh;
         .Clients div {
             width: 27vw;
             height: 230px;
-            background-size: cover;
+            background-size: 30vw;
+            background-repeat: no-repeat;
+            background-color: #4d3dd3;
+
         }
         .Clients p {
             width: 20vw;
@@ -1935,12 +1951,14 @@ margin-top: 40vh;
         .USD div {
             width: 27vw;
             height: 230px;
-            background-size: cover;
+           background-size: 30vw;
+            background-repeat: no-repeat;
+            background-color: #e6ff00;
         }
         .Vault div {
             width: 27vw;
             height: 230px;
-            background-size: cover;
+           background-size: cover;
         }
         .Stablecoin {
             font-size: 12px;
