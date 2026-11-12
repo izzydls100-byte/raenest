@@ -2214,7 +2214,7 @@ border: none;
      .finally{
         background-color: #080615;
         background-image: url(https://cdn.prod.website-files.com/67d85bdb392a92fa03e2f524/67d98a1c957421a46106e674_footer-pattern.svg);
-        height: 130vh;
+        height: 160vh;
         background-position: 50% -7%;
         padding-top: 60px;
         padding-left: 20px;
@@ -2354,6 +2354,31 @@ justify-content: space-between;
     flex-wrap: wrap-reverse;
    }
   }
+  .words{
+    width: 90vw;
+    color: #E9E9E9;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 40px;
+  }
+  @media (min-width: 481px) and (max-width: 1024px){
+    .words{
+        font-size: 1rem;
+    }
+    .finally{
+        height: 120vh;
+    }
+  }
+   @media (max-width: 480px){
+     .words{
+        font-size: 1rem;
+    }
+    .finally{
+        height: 270vh;
+        margin-top: 25vh;
+    }
+   }
 
 
 
