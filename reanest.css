@@ -2056,6 +2056,7 @@ margin-top: 40vh;
         margin-top: 160px;
         font-family: "Open Sans", sans-serif;
     }
+    
     .Techpoint {
         justify-self: center;
         display: flex;
@@ -2210,9 +2211,149 @@ border: none;
     padding-top: 0vh;
     } 
      }
-
-
-
+     .finally{
+        background-color: #080615;
+        background-image: url(https://cdn.prod.website-files.com/67d85bdb392a92fa03e2f524/67d98a1c957421a46106e674_footer-pattern.svg);
+        height: 130vh;
+        background-position: 50% -7%;
+        padding-top: 60px;
+        padding-left: 20px;
+        background-repeat: no-repeat;
+        background-size: auto;
+        margin-top: 90px;
+     }
+.finad{
+    width: 90vw;
+    margin: auto;
+}
+.fex{
+    display: flex;
+justify-content: space-between;
+}
+.inak{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inak img{
+    filter: invert(1);
+}
+.med{
+    display: flex;
+    gap: 10px;
+}
+.med img{
+     filter: invert(1);
+     width: 23px;
+}
+.inak p{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    width: 250px;
+}
+.problem{
+    display: flex;
+    gap: 29px;
+}
+.pd{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pdg{
+    color: #A7A6A5;
+    font-size: 18px;
+    font-weight: 500;
+}
+.kilish{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+}
+.yell{
+    width: 90px;
+    height: 24px;
+    border-radius: 30px;
+    background-color: #e6ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #080615;
+    margin-left: 10px;
+}
+.Right{
+    width: 90vw;
+    height: 6vh;
+    border-bottom: 1px solid #7c7978;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.kita{
+    color: #7c7978;
+    font-size: 14px;
+}
+.kita1{
+    display: flex;
+    gap: 20px;
+}
+@media (min-width: 481px) and (max-width: 1024px){
+    .inak p{
+        font-size: 0.9rem;
+        width: 230px;
+    }
+    .pdg{
+        font-size: 0.9rem;
+    }
+    .kilish{
+        font-size: 0.85rem;
+    }
+}
+  @media (max-width: 480px){
+    .problem{
+        flex-wrap: wrap;
+        margin-top: 4vh;
+        gap: 8vw;
+    }
+    .inak{
+        flex-wrap: wrap;
+    }
+    .fex{
+        flex-wrap: wrap;
+    }
+    .inak p{
+        font-size: 0.78rem;
+        width: fit-content;
+    }
+    .med img{
+        width: 4vw;
+    }
+    .inak{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+ .pdg{
+        font-size: 0.9rem;
+    }
+    .kilish{
+        font-size: 0.75rem;
+    }
+    .yell{
+        font-size: 0.6rem;
+        width: 22vw;
+    }
+    .pd1{
+        margin-left: 10vw;
+    }
+   .Right{
+    flex-wrap: wrap-reverse;
+   }
+  }
 
 
 
