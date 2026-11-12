@@ -2085,7 +2085,7 @@ margin-top: 40vh;
     }
     .faq{
         height: 100vh;
-    padding-top: 26vh;
+    padding-top: 40vh;
     }
     .faqd{
         display: flex;
@@ -2095,6 +2095,11 @@ margin-top: 40vh;
     .betnija{
 width: 380px;
     }
+    .pbet{
+        font-size: 17px;
+        color: #24201E;
+        font-weight: 400;
+    }
     .bet{
         font-size: 36px;
         color: #24201E;
@@ -2103,6 +2108,7 @@ width: 380px;
     .accordion{
         background-color: white;
         width: 50vw;
+        border-radius: 0px;
     }
     .accordion-item{
     border: none;
@@ -2111,7 +2117,7 @@ width: 380px;
 }
 .accordion-body{
     background-color: white;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black; 
 }
 .accordion-header:focus{
 background: none;
@@ -2124,9 +2130,86 @@ border: none;
     font-size: 19px;
     color: #24201E;
     font-weight: 500;
+    display: flex;
+    justify-content: space-between;
 }
- 
-    
+  .faq-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
+            background-color: #6c5ce7;
+            color: white;
+            border-radius: 50%;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+            margin-left: 15px;
+        }
+         .accordion-item[open] .faq-icon {
+            transform: rotate(45deg);
+            background-color: #D3D2D2;
+        }
+     @media (max-width: 480px){
+        .faqd{
+         display: flex;
+         flex-direction: column;
+         gap: 2vh;
+         justify-content: center;
+        }
+        .betnija{
+            width: fit-content;
+            display: flex;
+          margin-left: 3vw;
+        }
+        .bet{
+            font-size: 5vw;
+        }
+.accordion{
+    width: 90vw;
+}
+.accordion-header{
+    font-size: 3vw;
+}
+.pbet{
+    font-size: 3vw;
+}
+.faq{
+        height: 60vh;
+    padding-top: 10vh;
+    }
+     }
+     @media (min-width: 481px) and (max-width: 1024px){
+       .faqd{
+         display: flex;
+         flex-direction: column;
+         gap: 2vh;
+         justify-content: center;
+        }
+        .betnija{
+            width: fit-content;
+            display: flex;
+          margin-left: 3vw;
+        }
+        .bet{
+            font-size: 1.9rem;
+        }
+.accordion{
+    width: 90vw;
+}
+.accordion-header{
+    font-size: 1.2rem;
+}
+.pbet{
+    font-size: 1.0rem;
+}
+.faq{
+        height: 60vh;
+    padding-top: 0vh;
+    } 
+     }
 
 
 
